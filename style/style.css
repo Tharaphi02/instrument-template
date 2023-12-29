@@ -38,7 +38,7 @@ header {
     padding: 2rem 3.5rem;
     flex-wrap: wrap;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     /* border-bottom: 1px solid gray; */
 }
 header a {
@@ -68,6 +68,7 @@ header .toggle {
 
 /* hero section */
 .hero{
+    width: 100%;
     background-color: #000;
     color: #fff;
 }
@@ -102,6 +103,7 @@ header .toggle {
 
 /* About section */
 .about .container {
+    width: 100%;
     background-color: #000;
     /* border: 1px solid red; */
     display: flex;
@@ -139,6 +141,7 @@ header .toggle {
 
 /* projects section */
 .projects .container {
+    width: 100%;
     background-color: hsl(0, 0%, 0%);
 }
 .projects .container .para {
@@ -181,6 +184,7 @@ header .toggle {
 
 /* Last section */
 .last .container {
+    width: 100%;
     background-color: #000;
     color: #fff;
 }
@@ -210,6 +214,7 @@ header .toggle {
 
 /* footer */
 footer .container {
+    width: 100%;
     background-color: #000;
     display: flex;
     justify-content: space-between;
