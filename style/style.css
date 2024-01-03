@@ -48,10 +48,11 @@ header a {
     color: #BABABA;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 500;
     transition: .2s linear;
 }
 header nav a:hover{
-    color: white;
+    color: #ffffff;
 }
 header .logo {
     font-size: 2rem;
@@ -218,6 +219,9 @@ header .toggle {
     margin-left: 43%;
     margin-bottom: 15%;
 }
+.last .container .contact a:hover{
+    color: cornflowerblue;
+}
 
 
 /* footer */
@@ -256,6 +260,9 @@ footer .container .three .icon {
     position: absolute;
     font-size: 1.2rem;
     margin-top: .8rem;
+}
+footer .container .three .icon:hover{
+    color: cornflowerblue;
 }
 footer .container .three li {
     padding-right: 2rem;
@@ -297,7 +304,7 @@ media query
     }
     header nav ul li {
         display: block;
-        text-align: right;
+        text-align: center;
         width: 30%;
         margin-top: 1rem;
         margin-left: 40%;
@@ -307,6 +314,9 @@ media query
         margin-top: 1rem;
         background-color: gray;
         border-radius: .5rem;
+    }
+    header nav a {
+        color: darkslategrey;
     }
 }
 @media(max-width: 873px) {
@@ -319,8 +329,12 @@ media query
     }
 }
 @media(max-width: 737px) {
-    .last .container .contact a{
+    .last .container .contact {
         font-size: 1.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        transition: .2s linear;
     }
     .hero .content h1 {
         font-size: 2.5rem;
